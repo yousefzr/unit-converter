@@ -1,12 +1,81 @@
-/*
-font-family: 'Inter', sans-serif;
-colors
-header banner: #6943FF
-main bg: #1F2937
-list bg: #273549
-list-text: #CCC1FF
- */
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+ }
 
  body {
-    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
  }
+
+.header-container {
+    background-color: #1F2937;
+}
+
+.main-container {
+    padding: 30px 20px 10px 20px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    padding: 35px 50px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.header input {
+    width: 110px;
+    padding: 2px 10px;
+    margin: 20px 0px;
+    font-size: 58px;
+    border: 2px solid #B295FF;
+    border-radius: 4px;
+    background-color: #6943FF;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header button {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #3D3D3D;
+    background-color: white;
+    padding: 8px 22px;
+    border-radius: 3px;
+}
+
+.unit-block {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    background-color: #273549;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.unit-block h3 {
+    color: #B295FF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.unit-block p {
+    color: white;
+    font-size: 16px;
+}
